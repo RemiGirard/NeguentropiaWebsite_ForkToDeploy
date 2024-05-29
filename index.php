@@ -191,8 +191,7 @@
                                                 <button onclick="linkclick('manifest.php')">Manifeste</button>
                                             </li>
                                             <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
-                                                <button onclick="linkclick('ecology_guide.php')">Petit Précis d'
-                                                    Écologie</button>
+                                                <button onclick="linkclick('ecology_guide.php')">Petit Précis d'Écologie</button>
                                             </li>
                                             <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53">
                                                 <button onclick="linkclick('considered_team.php')">Équipe
@@ -344,8 +343,17 @@
                     type: 'post',
                     success: function(data) {
                         $('main').html(data);
+                        console.log(_url)
+                        if (_url === 'ecology_guide.php') {
+                            $.getScript('js/ecology_guide_list_filtering/list_filtering_manage.js')
+                            $.getScript('js/svg3DTagCloud/manage.js')
+                        }
+
                         _url == 'intro.php' ? _url = _url.split('intro') : _url = 'https://neguentropia.org';
-                        window.history.pushState({"html": _url, "pageTitle": "Nouvelle page"});
+                        window.history.pushState({
+                            "html": _url,
+                            "pageTitle": "Nouvelle page"
+                        });
                     },
                     error: function() {
                         $('main').text('An error occurred');
@@ -353,7 +361,7 @@
                 });
                 if (_url !== 'https://neguentropia.org') {
                     $.ajax({
-                        url: breadcrumbs.php,
+                        url: 'breadcrumbs.php',
                         type: 'post',
                         success: function(data) {
                             $('.breadcrumb-wrapper').html(data);
@@ -389,6 +397,8 @@
         <script type="text/javascript" src="js/wp_includes/wp-polyfill.min.js" id="wp-polyfill-js">
         </script>
         <script type="text/javascript" src="js/contact_form_7/index.js"></script>
+        <script src="js/svg3DTagCloud/jquery.svg3DTagCloud.min.js" type="text/javascript"></script>
+        <script src="js/ecology_guide_list_filtering/list.min.js" type="text/javascript"></script>
 
         <!-- [CDATA] -->
         <script type="text/javascript" id="blossom-coach-js-extra">
@@ -432,16 +442,6 @@
             };
             /* ]]> */
         </script>
-
-        <!-- start Simple Custom CSS and JS -->
-        <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', (event) => {
-                var defList = new List('def-list', {
-                    valueNames: ['title']
-                })
-            })
-        </script>
-        <!-- end Simple Custom CSS and JS -->
 
     </div>
 

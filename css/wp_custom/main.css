@@ -199,11 +199,12 @@ but smaller than the li gap */
 #primary-menu button {
     background: transparent;
     color: black;
-    padding: 14px !important;
+    padding: 14px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+    text-align: left;
 }
 
 #donText {
@@ -305,6 +306,18 @@ margin: auto
     color: #00d900;
 }
 
+#Definitions h4 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+}
+
+#Definitions h5 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(32, 32, 32);
+    font-weight: 400;
+}
+
 #Definitions u {
     text-decoration: none !important;
 }
@@ -322,6 +335,12 @@ margin: auto
 }
 
 #Resources a {
+    font-style: italic;
+}
+
+#filter_wrapper {
+    color: rgb(43, 43, 43);
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -683,6 +702,7 @@ footer .wrapper {
     .submenu-toggle {
         width: 45px !important;
         right: 20px !important;
+        text-align: center !important;
         background-color: #e6ffe6 !important;
         border: solid 1px !important;
         border-radius: 8px !important;

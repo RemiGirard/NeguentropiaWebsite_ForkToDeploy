@@ -2179,6 +2179,7 @@ span.page-numbers.current {
 }
 
 .header-t .top-left span {
+    display: inherit;
     margin-right: 30px
 }
 
@@ -7313,13 +7314,8 @@ article.sfwd-topic .entry-header {
     }
 
     .main-navigation ul li.menu-item-has-children .submenu-toggle {
-        font-weight: 400;
-        font-size: 16px;
         position: absolute;
-        top: 19px;
-        right: 10px;
-        width: 20px;
-        text-align: center;
+        top: 10px;
         height: 20px;
         line-height: 20px;
         z-index: 9;
@@ -7328,7 +7324,11 @@ article.sfwd-topic .entry-header {
         -moz-transition: all ease .35s;
         transition: all ease .35s
     }
-
+    
+    .submenu-toggle .svg-inline--fa {
+        position: relative;
+        top: -8px;
+    }
     .main-navigation ul li.menu-item-has-children .submenu-toggle.active {
         -webkit-transform: rotate(180deg);
         -moz-transform: rotate(180deg);
