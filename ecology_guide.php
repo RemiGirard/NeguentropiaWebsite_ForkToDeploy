@@ -55,7 +55,7 @@
                                 théorique
                                 Grenoble-Alpes:
                             </h4>
-                            <video width="640" height="360" controls="">
+                            <video width="100%" height="100%" controls="">
                                 <source src="video/Aurélien Barrau M A S S A C R E.mp4" type="video/mp4" autoplay>
                                 Your browser does not support HTML video.
                             </video>
@@ -63,7 +63,7 @@
 
                             <!-- GLOBAL WARMING -->
                             <h2><a href="">143 ans d’élévation dramatique des températures mondiales:</a></h2>
-                            <video width="550" height="550" controls="">
+                            <video width="100%" height="100%" controls="">
                                 <source src="video/Temperature-Change-1880-2022-1080p.mp4" type="video/mp4">
                                 Your browser does not support HTML video.
                             </video>
@@ -84,13 +84,15 @@
                             <!-- REAL START OF DEFINITIONS  -->
 
                             <div id="def-list">
-                                <button id="list-button" class="btn btn-primary btn-sm">Liste des définitions
-                                    on/off</button>
-                                <button id="list-toggle" class="btn btn-primary btn-sm">Sphere</button>
-                                <div id="summary-list">
-                                    <ul></ul>
+                                <button id="def-nav-button" class="btn btn-primary btn-sm">Navigation on/off</button>
+                                <div id="def-list-nav">
+                                    <button id="navtype-toggle" class="btn btn-primary btn-sm">Sphere</button>
+                                    <div id="summary-list">
+                                        <ul></ul>
+                                    </div>
+                                    <div id="tag-cloud"></div>
                                 </div>
-                                <div id="tag-cloud"></div>
+
                                 <div id="filter_wrapper">
                                     <h3>Filtrer les définitions:</h3>
                                     <input type="text" class="search" placeholder="Rechercher..." autofocus="">

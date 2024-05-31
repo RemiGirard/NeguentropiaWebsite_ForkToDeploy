@@ -27,37 +27,25 @@
 
     <!-- CSS -->
     <link rel="stylesheet" id="blossom-coach-css" href="css/wp_content/blossom_coach_theme/main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/inline_styles/blossom_coach.css" type="text/css" media="all">
 
     <link rel="stylesheet" href="css/wp_custom/main.css" type="text/css" media="all">
-
-    <link rel="stylesheet" id="owl-carousel-css" href="css/wp_content/blossom_coach_theme/owl.carousel.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="animate-css" href="css/wp_content/blossom_coach_theme/animate.min.css" type="text/css" media="all">
 
     <link rel="stylesheet" href="css/booststrap-5.3.2.css" type="text/css" media="all">
     <script src="js/bootstrap-5.3.2.min.js" type="text/javascript"></script>
 
-    <link rel="stylesheet" href="css/inline_styles/global.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/inline_styles/blossom_coach.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/inline_styles/classic_theme.css" type="text/css" media="all">
+
+
     <link rel="stylesheet" href="css/inline_styles/custom_background.css" type="text/css" media="all">
-
-    <link rel="stylesheet" href="css/cky.css" type="text/css" media="all">
-
     <link rel="stylesheet" href="css/simple_custom/3d_sphere&list.css" type="text/css" media="all">
-
-    <link rel="stylesheet" id="wp-block-library-css" href="css/wp_includes/style.min.css" type="text/css" media="all">
-
-    <link rel="stylesheet" id="contact-form-7-css" href="css/contact_form_7/styles.css" type="text/css" media="all">
-
     <!-- JSON Xml Embed -->
-    <link rel="https://api.w.org/" href="https://neguentropia.org/wp-json/">
+    <!-- <link rel="https://api.w.org/" href="https://neguentropia.org/wp-json/">
     <link rel="alternate" type="application/json" href="https://neguentropia.org/wp-json/wp/v2/pages/472">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://neguentropia.org/xmlrpc.php?rsd">
-    <meta name="generator" content="WordPress 6.5.3">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://neguentropia.org/xmlrpc.php?rsd"> -->
     <link rel="canonical" href="/">
     <link rel="shortlink" href="/">
-    <link rel="alternate" type="application/json+oembed" href="https://neguentropia.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneguentropia.org%2F">
-    <link rel="alternate" type="text/xml+oembed" href="https://neguentropia.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneguentropia.org%2F&amp;format=xml">
+    <!-- <link rel="alternate" type="application/json+oembed" href="https://neguentropia.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneguentropia.org%2F">
+    <link rel="alternate" type="text/xml+oembed" href="https://neguentropia.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fneguentropia.org%2F&amp;format=xml"> -->
 
     <link rel="icon" href="img/uploads/2023/07/cropped-channels4_profile-32x32.jpg" sizes="32x32">
     <link rel="icon" href="img/uploads/2023/07/cropped-channels4_profile-192x192.jpg" sizes="192x192">
@@ -342,6 +330,9 @@
                     url: _url,
                     type: 'post',
                     success: function(data) {
+                        $(".main-navigation .primary-menu-list").animate({
+                            width: "toggle"
+                        })
                         $('main').html(data);
                         console.log(_url)
                         if (_url === 'ecology_guide.php') {
@@ -380,35 +371,13 @@
         <script type="text/javascript" src="js/jquery-3.7.1.min.js" id="jquery-core-js"></script>
         <script type="text/javascript" src="js/jquery-migrate-3.4.1.min.js" id="jquery-migrate-js"></script>
         <script src="js/jquery-easing.min.js" type="text/javascript"></script>
+        <script src="js/jquery.visibilityToggle.min.js" type="text/javascript"></script>
 
         <!-- Others -->
-        <script type="text/javascript" src="js/contact_form_7/includes/index.js" id="contact-form-7-js"></script>
-        <script type="text/javascript" src="js/blossom_coach_theme/all.min.js" id="all-js"></script>
-        <script type="text/javascript" src="js/blossom_coach_theme/v4-shims.min.js" id="v4-shims-js"></script>
-        <script type="text/javascript" src="js/blossom_coach_theme/owl.carousel.min.js" id="owl-carousel-js"></script>
-        <script type="text/javascript" src="js/blossom_coach_theme/owlcarousel2-a11ylayer.min.js" id="owlcarousel2-a11ylayer-js"></script>
-        <script type="text/javascript" src="js/wp_includes/imagesloaded.min.js" id="imagesloaded-js"></script>
-        <script type="text/javascript" src="js/wp_includes/masonry.min.js" id="masonry-js"></script>
         <script type="text/javascript" src="js/blossom_coach_theme/custom.min.js" id="blossom-coach-js"></script>
-        <script type="text/javascript" src="js/blossom_coach_theme/modal-accessibility.min.js" id="blossom-coach-modal-js"></script>
-        <script type="text/javascript" src="js/wp_includes/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
-        <script type="text/javascript" src="js/wp_includes/regenerator-runtime.min.js" id="regenerator-runtime-js">
-        </script>
-        <script type="text/javascript" src="js/wp_includes/wp-polyfill.min.js" id="wp-polyfill-js">
-        </script>
-        <script type="text/javascript" src="js/contact_form_7/index.js"></script>
         <script src="js/svg3DTagCloud/jquery.svg3DTagCloud.min.js" type="text/javascript"></script>
         <script src="js/ecology_guide_list_filtering/list.min.js" type="text/javascript"></script>
 
-        <!-- [CDATA] -->
-        <script type="text/javascript" id="blossom-coach-js-extra">
-            /* <![CDATA[ */
-            var blossom_coach_data = {
-                "rtl": "",
-                "animation": ""
-            };
-            /* ]]> */
-        </script>
 
         <!-- GTranslate Settings -->
         <script type="text/javascript" id="gt_widget_script_86148270-js-before">
@@ -430,18 +399,6 @@
             /* ]]> */
         </script>
         <script src="js/gtranslate/float.js" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/" data-gt-orig-domain="neguentropia.org" data-gt-widget-id="86148270" defer="defer"></script>
-
-        <script type="text/javascript" src="js/contact_form_7/includes/index.js" id="swv-js"></script>
-        <script type="text/javascript" id="contact-form-7-js-extra">
-            /* <![CDATA[ */
-            var wpcf7 = {
-                "api": {
-                    "root": "https:\/\/neguentropia.org\/wp-json\/",
-                    "namespace": "contact-form-7\/v1"
-                }
-            };
-            /* ]]> */
-        </script>
 
     </div>
 

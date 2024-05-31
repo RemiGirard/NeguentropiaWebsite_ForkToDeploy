@@ -1,1 +1,21 @@
-:root{--primary-font:Nunito Sans;--secondary-font:Nunito}.site-title,.site-title-wrap .site-title{font-size:40px;font-family:Nunito;font-weight:700;font-style:normal}section#wheeloflife_section{background-color:#e5f3f3}.custom-logo-link img{width:125px;max-width:100%}
+:root {
+    --primary-font: Nunito Sans;
+    --secondary-font: Nunito
+}
+
+.site-title,
+.site-title-wrap .site-title {
+    font-size: 40px;
+    font-family: Nunito;
+    font-weight: 700;
+    font-style: normal
+}
+
+section#wheeloflife_section {
+    background-color: #e5f3f3
+}
+
+.custom-logo-link img {
+    width: 125px;
+    max-width: 100%
+}

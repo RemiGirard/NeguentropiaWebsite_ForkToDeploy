@@ -1,1 +1,8 @@
-body.custom-background{background-color:#91d660;background-image:url("/img/uploads/2024/04/neguentropia-logo-environmental-sciences.png");background-position:center center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+body.custom-background {
+    background-color: #91d660;
+    background-image: url("/img/uploads/2024/04/neguentropia-logo-environmental-sciences.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
