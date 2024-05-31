@@ -1,1 +1,57 @@
-var entries=[];$(".list anchor").remove(),$(".list *h2 a.title").each((function(e){var t=this.innerText.replace(":","");1==e&&(t="Société Néguentropique");var i=`#${t}`;$("#summary-list ul").append(`<li><a href="${i}">${t}</a></li>`),entries.push({label:t,url:i,target:"_self"});try{var o=Object.values(entries)[e].label;$(`<anchor id="${o}"></anchor>`).insertBefore(this)}catch{}}));var settings={entries:entries,width:"100%",height:"100%",radius:"65%",radiusMin:75,bgDraw:!1,bgColor:"#111",opacityOver:1,opacityOut:.15,opacitySpeed:6,fov:800,speed:1,fontFamily:"Nunito Sans, Oswald, Arial, sans-serif",fontSize:"18",fontColor:"#00d900",fontWeight:"bold",fontStyle:"normal",fontStretch:"normal",fontToUpperCase:!0};$("#def-nav-button").click((function(){$("#navtype-toggle").toggle(),$("#summary-list").toggle(),$("#tag-cloud").visiblilityToggle()}));var resizeId,nav_mode="",test_mode=function(){return nav_mode=$(window).width()<=576?"override":"dual"},List_Override=function(){$("#tag-cloud").invisible(),$("#summary-list").show(),$("#navtype-toggle").text("Liste")};function doneResizing(){"override"===test_mode()&&List_Override()}"override"===test_mode()?List_Override():$("#tag-cloud").svg3DTagCloud(settings),$(window).resize((function(){clearTimeout(resizeId),resizeId=setTimeout(doneResizing,500)})),$("#navtype-toggle").click((function(){"dual"===test_mode()&&$(this).text((function(e,t){return"Sphere"===t?($("#tag-cloud").invisible(),$("#summary-list").show()):"Liste"===t&&($("#tag-cloud").svg3DTagCloud(settings),$("#tag-cloud").visible(),$("#summary-list").hide()),"Sphere"===t?"Liste":"Sphere"}))}));
+var entries = [];
+$(".list anchor").remove(), $(".list *h2 a.title").each((function (e) {
+    var t = this.innerText.replace(":", "");
+    1 == e && (t = "Société Néguentropique");
+    var i = `#${t}`;
+    $("#summary-list ul").append(`<li><a href="${i}">${t}</a></li>`), entries.push({
+        label: t,
+        url: i,
+        target: "_self"
+    });
+    try {
+        var o = Object.values(entries)[e].label;
+        $(`<anchor id="${o}"></anchor>`).insertBefore(this)
+    } catch {}
+}));
+var settings = {
+    entries: entries,
+    width: "100%",
+    height: "100%",
+    radius: "65%",
+    radiusMin: 75,
+    bgDraw: !1,
+    bgColor: "#111",
+    opacityOver: 1,
+    opacityOut: .15,
+    opacitySpeed: 6,
+    fov: 800,
+    speed: 1,
+    fontFamily: "Nunito Sans, Oswald, Arial, sans-serif",
+    fontSize: "18",
+    fontColor: "#00d900",
+    fontWeight: "bold",
+    fontStyle: "normal",
+    fontStretch: "normal",
+    fontToUpperCase: !0
+};
+$("#def-nav-button").click((function () {
+    $("#navtype-toggle").toggle(), $("#summary-list").toggle(), $("#tag-cloud").visibilityToggle()
+}));
+var resizeId, nav_mode = "",
+    test_mode = function () {
+        return nav_mode = $(window).width() <= 576 ? "override" : "dual"
+    },
+    List_Override = function () {
+        $("#tag-cloud").invisible(), $("#summary-list").show(), $("#navtype-toggle").text("Liste")
+    };
+
+function doneResizing() {
+    "override" === test_mode() && List_Override()
+}
+"override" === test_mode() ? List_Override() : $("#tag-cloud").svg3DTagCloud(settings), $(window).resize((function () {
+    clearTimeout(resizeId), resizeId = setTimeout(doneResizing, 500)
+})), $("#navtype-toggle").click((function () {
+    "dual" === test_mode() && $(this).text((function (e, t) {
+        return "Sphere" === t ? ($("#tag-cloud").invisible(), $("#summary-list").show()) : "Liste" === t && ($("#tag-cloud").svg3DTagCloud(settings), $("#tag-cloud").visible(), $("#summary-list").hide()), "Sphere" === t ? "Liste" : "Sphere"
+    }))
+}));
