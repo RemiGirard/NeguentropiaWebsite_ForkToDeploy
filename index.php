@@ -186,15 +186,15 @@
                                                     envisagée</button>
                                             </li>
                                             <li id="menu-item-470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-470">
-                                                <a href="https://neguentropia.org/consulting">Consulting</a><button class="submenu-toggle"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                                <a href="" aria-current="disable-link">Consulting</a><button class="submenu-toggle"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                                         <path fill="currentColor" d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
                                                         </path>
                                                     </svg>
                                                     <!-- <i class="fa fa-angle-down"></i> Font Awesome fontawesome.com --></button>
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-643">
-                                                        <a href="https://neguentropia.org/strategie-climat-biodiversite-eau-energie">Stratégie
-                                                            d’Entreprise Eau Énergie Biodiversité Climat</a>
+                                                        <button onclick="linkclick('considered_team.php')">Stratégie
+                                                            d’Entreprise Eau Énergie Biodiversité Climat</button>
                                                     </li>
                                                     <li id="menu-item-476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-476">
                                                         <a href="https://neguentropia.org/bilan-carbone">VOTRE
@@ -219,7 +219,7 @@
                                                 </ul>
                                             </li>
                                             <li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-54">
-                                                <a href="https://neguentropia.org/sensibilisation">Sensibilisation</a><button class="submenu-toggle"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                                <a href="" aria-current="disable-link">Sensibilisation</a><button class=" submenu-toggle"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                                         <path fill="currentColor" d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
                                                         </path>
                                                     </svg>

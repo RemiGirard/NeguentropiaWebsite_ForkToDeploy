@@ -6258,11 +6258,11 @@
                                         </p>
                                     </li>
                                     <li>
-                                        <h1 id="Rapport
+                                        <h2 id="Rapport
                 Brundtland"><a class="title" href="https://fr.wikipedia.org/wiki/Rapport_Brundtland" target="_blank" rel="noopener">
                                                 Rapport
                                                 Brundtland:
-                                            </a></h1>
+                                            </a></h2>
                                         <p>
 
                                             <span>Nom
