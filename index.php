@@ -224,36 +224,36 @@
                                                         </path>
                                                     </svg>
                                                     <!-- <i class="fa fa-angle-down"></i> Font Awesome fontawesome.com --></button>
-                                                <ul class="sub-menu">
-                                                    <li id="menu-item-520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-520">
-                                                        <a href="https://neguentropia.org/la-fresque-du-climat-2">La
-                                                            Fresque du Climat</a>
-                                                    </li>
-                                                    <li id="menu-item-500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-500">
-                                                        <a href="https://neguentropia.org/la-fresque-de-la-biodiversite">La
-                                                            Fresque de la Biodiversité</a>
-                                                    </li>
-                                                    <li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503">
-                                                        <a href="https://neguentropia.org/la-fresque-du-numerique">La
-                                                            Fresque du Numérique</a>
-                                                    </li>
-                                                    <li id="menu-item-508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-508">
-                                                        <a href="https://neguentropia.org/atelier-2-tonnes">Atelier
-                                                            2 Tonnes</a>
-                                                    </li>
-                                                    <li id="menu-item-511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511">
-                                                        <a href="https://neguentropia.org/atelier-sinergie">Atelier
-                                                            SiNERGIE</a>
-                                                    </li>
-                                                    <li id="menu-item-514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514">
-                                                        <a href="https://neguentropia.org/ateliers-de-ladaptation">Ateliers
-                                                            de l’adaptation</a>
-                                                    </li>
-                                                    <li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517">
-                                                        <a href="https://neguentropia.org/la-fresque-one-health">La
-                                                            Fresque One Health</a>
-                                                    </li>
-                                                </ul>
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-520">
+                                                            <a href="https://neguentropia.org/la-fresque-du-climat-2">La
+                                                                Fresque du Climat</a>
+                                                        </li>
+                                                        <li id="menu-item-500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-500">
+                                                            <a href="https://neguentropia.org/la-fresque-de-la-biodiversite">La
+                                                                Fresque de la Biodiversité</a>
+                                                        </li>
+                                                        <li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503">
+                                                            <a href="https://neguentropia.org/la-fresque-du-numerique">La
+                                                                Fresque du Numérique</a>
+                                                        </li>
+                                                        <li id="menu-item-508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-508">
+                                                            <a href="https://neguentropia.org/atelier-2-tonnes">Atelier
+                                                                2 Tonnes</a>
+                                                        </li>
+                                                        <li id="menu-item-511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511">
+                                                            <a href="https://neguentropia.org/atelier-sinergie">Atelier
+                                                                SiNERGIE</a>
+                                                        </li>
+                                                        <li id="menu-item-514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514">
+                                                            <a href="https://neguentropia.org/ateliers-de-ladaptation">Ateliers
+                                                                de l’adaptation</a>
+                                                        </li>
+                                                        <li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517">
+                                                            <a href="https://neguentropia.org/la-fresque-one-health">La
+                                                                Fresque One Health</a>
+                                                        </li>
+                                                    </ul>
                                             </li>
                                             <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61">
                                                 <button onclick="linkclick('events.php')">Évènements</button>
