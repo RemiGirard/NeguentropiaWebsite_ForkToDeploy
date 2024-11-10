@@ -330,9 +330,9 @@
                     url: _url,
                     type: 'post',
                     success: function(data) {
-                        $(".main-navigation .primary-menu-list").animate({
-                            width: "toggle"
-                        })
+                        // $(".main-navigation .primary-menu-list").animate({
+                        //     width: "toggle"
+                        // })
                         $('main').html(data);
                         console.log(_url)
                         if (_url === 'ecology_guide.php') {
@@ -355,7 +355,7 @@
                         url: 'breadcrumbs.php',
                         type: 'post',
                         success: function(data) {
-                            $('.breadcrumb-wrapper').html(data);
+                            $('.breadcrumb-wrapper').replaceWith(data);
                         },
                         error: function() {
                             $('.breadcrumb-wrapper').text('Breadcrumbs loading error occurred');
