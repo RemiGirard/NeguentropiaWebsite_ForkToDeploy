@@ -334,10 +334,11 @@
                         //     width: "toggle"
                         // })
                         $('main').html(data)
-
-                        $(".primary-menu-list").animate({
-                            width: 'toggle'
-                        }, 350);
+                        if (window.width() <= 600) {
+                            $(".primary-menu-list").animate({
+                                width: 'toggle'
+                            }, 350);
+                        }
 
                         console.log(_url)
                         if (_url === 'ecology_guide.php') {
