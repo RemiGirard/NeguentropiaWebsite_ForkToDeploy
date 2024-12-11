@@ -456,6 +456,3 @@ Parce que sur une planète à l’avenir incertain, nous avons à cœur de pére
 
             </main><!-- #main -->
         </div><!-- #primary -->
-
-    </div><!-- #acc-content -->
-</div>

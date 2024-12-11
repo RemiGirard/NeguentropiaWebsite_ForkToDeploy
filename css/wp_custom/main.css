@@ -191,6 +191,19 @@ button,
     text-align: left
 }
 
+.menu-item-643 {
+    display: block;
+  font-weight: 400 !important;
+  text-transform: none;
+  font-size: 16px;
+  letter-spacing: 0;
+  background-color: white;
+}
+
+.menu-item-643:hover {
+background-color: #88ced0;
+}
+
 #donText {
     padding-left: 6px
 }

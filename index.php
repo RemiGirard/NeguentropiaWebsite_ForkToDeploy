@@ -193,8 +193,8 @@
                                                     <!-- <i class="fa fa-angle-down"></i> Font Awesome fontawesome.com --></button>
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-643">
-                                                        <button onclick="linkclick('considered_team.php')">Stratégie
-                                                            d’Entreprise Eau Énergie Biodiversité Climat</button>
+                                                        <a href="#" onclick="linkclick('strategie_climatbiodivenergie.php')">Stratégie
+                                                            d’Entreprise Eau Énergie Biodiversité Climat</a>
                                                     </li>
                                                     <li id="menu-item-476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-476">
                                                         <a href="https://neguentropia.org/bilan-carbone">VOTRE
@@ -383,6 +383,7 @@
         <script type="text/javascript" src="js/blossom_coach_theme/custom.min.js" id="blossom-coach-js"></script>
         <script src="js/svg3DTagCloud/jquery.svg3DTagCloud.min.js" type="text/javascript"></script>
         <script src="js/ecology_guide_list_filtering/list.min.js" type="text/javascript"></script>
+        <script src="js/strategy_manage.min.js"></script>
 
 
         <!-- GTranslate Settings -->
