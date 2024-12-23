@@ -43,7 +43,7 @@
                         <section id="signSection">
                             <h2 style="text-align: center">Signer le Manifeste</h2>
                             <h2>
-                                <form id="signManifest">
+                                <form id="signManifest" action="sign_manifest_manager.php" method="POST">
                                     <div class="form-group">
                                         <label for="inputName">Votre nom:</label>
                                         <input type="text" class="form-control" id="inputName" placeholder="Nom (requis)">
