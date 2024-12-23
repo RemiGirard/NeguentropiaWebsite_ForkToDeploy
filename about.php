@@ -14,7 +14,7 @@
 
                         <h3>Le mot du fondateur – Génèse du projet</h3><br>
 
-                        <p><a href="https://www.linkedin.com/in/neguentropia/"><img decoding="async" style="display: block; width: 300px; float: left; margin: 0 20px 0 0" src="http://neguentropia.local/wp-content/uploads/2023/11/moi-linkedin-like.png" alt="matthias photo"></a>
+                        <p><a href="https://www.linkedin.com/in/neguentropia/"><img decoding="async" style="display: block; width: 300px; float: left; margin: 0 20px 0 0" src="img/moi.png" alt="matthias photo"></a>
                             Bonjour ! Moi c’est Matthias, né en terres scientifiques, à Clermont-Ferrand, Auvergne, pays de Blaise Pascal, des
                             Volcans et de la fourme d’Ambert !<br><br>
                             Initier un tel projet, disons-le, complètement fou avec pour seul diplôme en poche un baccalauréat Sciences et
