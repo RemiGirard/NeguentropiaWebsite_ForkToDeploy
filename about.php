@@ -1,4 +1,3 @@
-
 <div id="content" class="site-content">
     <div class="wrapper">
 
@@ -73,18 +72,18 @@
 
                         </p>
                         <ul role="list">
-                            <li data-icon="????️⇥   ">A sept ans premier contact: un Amstrad CPC64 à cassette où je jouais à <a href="https://fr.wikipedia.org/wiki/Sorcery_(jeu_vid%C3%A9o,_1984)">Sorcery</a>, c’est une révélation.
+                            <li data-icon="&#128377;⇥   ">A sept ans premier contact: un Amstrad CPC64 à cassette où je jouais à <a href="https://fr.wikipedia.org/wiki/Sorcery_(jeu_vid%C3%A9o,_1984)">Sorcery</a>, c’est une révélation.
                             </li>
-                            <li data-icon="????⇥   ">A quatorze: il se trouve que j’ai un IBM 40486 sous <span class="hasTooltip">Windows
+                            <li data-icon="&#128187;⇥   ">A quatorze: il se trouve que j’ai un IBM 40486 sous <span class="hasTooltip">Windows
                                     3.1</span><img href="https://networkencyclopedia.com/wp-content/uploads/2019/08/windows-3-1-logo-1024x467.jpg" class="hidden">, MS-DOS 5.0. Celà n’a pas traîné avant que je dissèque les entrailles de la bête et
                                 code mon tout premier jeu après avoir minutieusement examiné les fichiers systèmes. Ce sera un <a href="https://fr.wikipedia.org/wiki/Snake_(genre_de_jeu_vid%C3%A9o)">Snake</a> sous <a href="https://fr.wikipedia.org/wiki/QBasic">QBASIC</a>. Les fichiers systèmes Windows n’auront bientôt plus de secrets pour moi, de 3.1 en passant
                                 par Windows 95, 98, puis 2000, dans un premier temps.
                             </li>
-                            <li data-icon="????️⇥   ">Toute mon adolescence fut ensuite consacrée à bidouiller tout ordinateur qui me tombait
+                            <li data-icon="&#129520;⇥   ">Toute mon adolescence fut ensuite consacrée à bidouiller tout ordinateur qui me tombait
                                 sous la main: je deviens le technicien informatique de la famille, jouant avec le BIOS, les chargeurs
                                 d’amorçage, ou bootloader pour les intimes, les systèmes de fichiers, Ubuntu, le multiboot Ubuntu / Windows
                                 7</li>
-                            <li data-icon="????‍????⇥   "> À l’approche du bac, en terminale, me vient une idée saugrenue: coder, par pure goût du
+                            <li data-icon="&#128425;⇥   "> À l’approche du bac, en terminale, me vient une idée saugrenue: coder, par pure goût du
                                 challenge, un simulateur de combat aérien sur ma calculatrice scientifique Texas Instruments Ti-89, le
                                 tout… en 250 lignes de code BASIC !…</li>
                         </ul>
