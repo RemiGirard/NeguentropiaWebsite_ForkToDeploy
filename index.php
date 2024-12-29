@@ -334,7 +334,8 @@
                         //     width: "toggle"
                         // })
                         $('main').html(data)
-                        if (window.width() <= 600) {
+
+                        if ($(window).width() <= 1024) {
                             $(".primary-menu-list").animate({
                                 width: 'toggle'
                             }, 350);
@@ -343,7 +344,7 @@
                         console.log(_url)
                         if (_url === 'ecology_guide.php') {
                             $.getScript('js/ecology_guide_list_filtering/list_filtering_manage.js')
-                            $.getScript('js/svg3DTagCloud/manage.js')
+                            $.getScript('js/svg3DTagCloud/3DTagCloudmanage.js')
                         }
 
                         _url == 'intro.php' ? _url = _url.split('intro') : _url = 'https://neguentropia.org';
@@ -382,6 +383,7 @@
         <!-- Others -->
         <script type="text/javascript" src="js/blossom_coach_theme/custom.min.js" id="blossom-coach-js"></script>
         <script src="js/svg3DTagCloud/jquery.svg3DTagCloud.min.js" type="text/javascript"></script>
+        <script src="js/svg3DTagCloud/3DTagCloudmanage.js" type="text/javascript"></script>
         <script src="js/ecology_guide_list_filtering/list.min.js" type="text/javascript"></script>
         <script src="js/strategy_manage.min.js"></script>
 
