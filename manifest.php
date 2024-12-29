@@ -13,7 +13,18 @@
                     <div class="entry-content" itemprop="text">
 
                         <section id="Manifest">
-                            <h1 style="text-decoration: underline">Pour une science au service de TOUTES les formes de vie:</h1>
+
+                            <h1>Avant-Propos</h1>
+                            <h3 style="text-decoration: underline;">Quand Isaac Asimov, génial écrivain de Science-Fiction nous mettait en garde dans un discours visionnaire:</h3>
+                            <video controls autoplay width="100%">
+                                <source src="/video/Isaac Asimov prémonition.mp4" type="video/mp4" />
+                                <p>
+                                    Votre navigateur ne prend pas en charge les vidéos HTML5. Voici
+                                    <a href="/video/Isaac Asimov prémonition.mp4">un lien pour télécharger la vidéo</a>.
+                                </p>
+                            </video>
+                            
+                            <h1 style="text-decoration: underline; margin-top: 30px; width: 80%">Pour une science au service de TOUTES les formes de vie:</h1>
                             <p>L’état de la recherche scientifique des civilisations humaines reflète avec une grande
                                 fidélité; ses comportements sociaux, la qualité de ses modes de vie -santé des individus-, ce qui en est produit, et le devenir de ses produits.</p>
 
