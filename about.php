@@ -58,7 +58,7 @@
                             <br><br>
                             Hors entre-temps, patiemment, rigoureusement, presque obsessionnellement, ma curiosité insatiable, guidée par une
                             conscience écologique indéfectible -encyclopédie et hypothèse Gaïa oblige, vous aurez compris- me fit dévorer dans
-                            une gloutonnerie presque indécente tout ce qui avait trait aux sciences et techniques.
+                            une gloutonnerie presque indécente tout ce qui eut trait aux sciences et techniques.
                             <br><br>
                             Ainsi entre sept et douze, alors que, encore ce foutu destin, je n’avais strictement qu’un dictionnaire pour seul
                             jouet, j’appris le tableau périodique des éléments de Mendeleïev, et l’acide désoxyribonucléique ou ADN que je
@@ -80,17 +80,17 @@
                                 par Windows 95, 98, puis 2000, dans un premier temps.
                             </li>
                             <li data-icon="&#129520;⇥   ">Toute mon adolescence fut ensuite consacrée à bidouiller tout ordinateur qui me tombait
-                                sous la main: je deviens le technicien informatique de la famille, jouant avec le BIOS, les chargeurs
+                                sous la main: je devins le technicien informatique de la famille, jouant avec le BIOS, les chargeurs
                                 d’amorçage, ou bootloader pour les intimes, les systèmes de fichiers, Ubuntu, le multiboot Ubuntu / Windows
                                 7</li>
-                            <li data-icon="&#128425;⇥   "> À l’approche du bac, en terminale, me vient une idée saugrenue: coder, par pure goût du
+                            <li data-icon="&#128425;⇥   "> À l’approche du bac, en terminale, me vient une idée saugrenue: coder, par pur goût du
                                 challenge, un simulateur de combat aérien sur ma calculatrice scientifique Texas Instruments Ti-89, le
                                 tout… en 250 lignes de code BASIC !…</li>
                         </ul>
 
                         <br><br>
                         Naturellement, le bac en poche et la conviction chevillée au corps, de l’extraordinaire mais fragile beauté du
-                        Vivant et de la planète bleue qui l’abrite, je me fit un devoir de la protéger, par tous les moyens.
+                        Vivant et de la planète bleue qui l’abrite, je me fiai un devoir de la protéger, par tous les moyens.
                         <br><br>
                         L’eau c’est la Vie a-t-on coutume de dire, et protéger l’une c’est protéger l’autre: ainsi je me tournais vers un BTS
                         «&nbsp;Métiers de l’Eau&nbsp;». Au programme: génie des procédés de traitement des eaux usées et de production d’eau potable.
