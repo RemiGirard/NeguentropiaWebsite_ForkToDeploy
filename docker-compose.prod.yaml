@@ -6,10 +6,10 @@ services:
     deploy:
       labels:
         - "traefik.enable=true"
-        - "traefik.http.routers.${STAGE_NAME}.rule=Host(`${DEPLOY_URL}`)"
-        - "traefik.http.routers.${STAGE_NAME}.entrypoints=websecure"
-        - "traefik.http.routers.${STAGE_NAME}.tls.certresolver=wildcardresolver"
-        - "traefik.http.services.${STAGE_NAME}.loadbalancer.server.port=8080"
+        - "traefik.http.routers.neguenentropia.rule=Host(`${DEPLOY_URL}`)"
+        - "traefik.http.routers.neguenentropia.entrypoints=websecure"
+        - "traefik.http.routers.neguenentropia.tls.certresolver=wildcardresolver"
+        - "traefik.http.services.neguenentropia.loadbalancer.server.port=8080"
 networks:
   traefik-public:
     external: true
