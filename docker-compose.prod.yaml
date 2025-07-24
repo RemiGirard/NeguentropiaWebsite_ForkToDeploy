@@ -9,7 +9,7 @@ services:
         - "traefik.http.routers.neguenentropia.rule=Host(`${DEPLOY_URL}`)"
         - "traefik.http.routers.neguenentropia.entrypoints=websecure"
         - "traefik.http.routers.neguenentropia.tls.certresolver=wildcardresolver"
-        - "traefik.http.services.neguenentropia.loadbalancer.server.port=8080"
+        - "traefik.http.services.neguenentropia.loadbalancer.server.port=80"
 networks:
   traefik-public:
     external: true
