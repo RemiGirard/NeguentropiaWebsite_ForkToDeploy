@@ -9,7 +9,7 @@ services:
         - "traefik.http.routers.${STAGE_NAME}.rule=Host(`${DEPLOY_URL}`)"
         - "traefik.http.routers.${STAGE_NAME}.entrypoints=websecure"
         - "traefik.http.routers.${STAGE_NAME}.tls.certresolver=wildcardresolver"
-        - "traefik.http.services.${STAGE_NAME}.loadbalancer.server.port=3000"
+        - "traefik.http.services.${STAGE_NAME}.loadbalancer.server.port=8080"
 networks:
   traefik-public:
     external: true
