@@ -76,6 +76,9 @@ jobs:
       - name: Verify Docker registry certificates
         run: docker pull remigirard.dev:5000/nonexistent-image || echo "Certificates are valid"
 
+      - name: list image names and tags
+        run: docker images
+
       - run: docker tag neguenentropiawebsite-web remigirard.dev:5000/admin/neguenentropia_web:${{ github.ref_name }}
       - run: docker push remigirard.dev:5000/admin/neguenentropia_web:${{ github.ref_name }}
 
